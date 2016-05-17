@@ -5,7 +5,7 @@ Home: https://github.com/podio/valideer
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Lightweight data validation and adaptation library for Python
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/valideer-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/valideer-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/valideer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/valideer-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/valideer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/valideer-feedstock/branch/master)
