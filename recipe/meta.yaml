@@ -10,11 +10,13 @@ source:
   sha256: be554a6f93eab049dd419a181c409a2e6421696263c7eb472cbdfaa46df9d1b1
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
   run:
